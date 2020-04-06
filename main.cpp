@@ -107,146 +107,146 @@ struct CarWash //2)
 
 
 /*
-1)
+1) Bedroom
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) Has Bed
+    2) Stores Clothes
+    3) Has alarm clock
+    4) Can sleep multiple people
+    5) Has en suite
 3 things it can do:
-    1)
-    2)
-    3)
+    1) Lock the door
+    2) Turn out the light
+    3) allow people to sleep
  */
 
 /*
-2)
+2) Electricity cables
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) insulated
+    2) made from copper
+    3) length of cable 
+    4) amount of electricity
+    5) Gauge
 3 things it can do:
-    1)
-    2)
-    3)
+    1) Turn electricity On
+    2) Overheat
+    3) Flip Circuit Breaker
  */
 
 /*
-3)
+3) Water Pipe
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) Made from PVC
+    2) Length of  pipe
+    3) Diameter of pipe
+    4) Number of nodes
+    5) Thickness of Wall
 3 things it can do:
-    1)
-    2)
-    3)
+    1) Pass water to shower
+    2) Take water from boiler
+    3) Pass water to wahsing machine
  */
 
 /*
-4)
+4) Bricks
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) Made from Sandstone
+    2) Is 6 inches high
+    3) Is 12 inches wide
+    4) Is 8 inches Deep
+    5) Has Grooves
 3 things it can do:
-    1)
-    2)
-    3)
+    1) Resist Wind
+    2) Make house
+    3) Resist water
  */
 
 /*
-5)
+5) Window
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) Size
+    2) Tickness of glass
+    3) Number of panes
+    4) Frosted glass
+    5) Wodden Frame type
 3 things it can do:
-    1)
-    2)
-    3)
+    1) Open
+    2) Close
+    3) Let in Light
  */
 
 /*
-6)
+6) Keyboard
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) Number of octaves
+    2) Presure sensitive
+    3) Weighted Keys
+    4) Number of sound presets
+    5) Has Sustain Pedal
 3 things it can do:
-    1)
-    2)
-    3)
+    1) Make Piano Sound
+    2) Ouput midi notes
+    3) Power on
  */
 
 /*
-7)
+7) Guitar
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) Type of Wood
+    2) Number of Frets 
+    3) Size of Neck
+    4) Shape of Noise hole
+    5) Number of Strings
 3 things it can do:
-    1)
-    2)
-    3)
+    1) Vibrate Strings
+    2) Resonate Body
+    3) Induce Electric Current
  */
 
 /*
-8)
+8) Cup
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) Size
+    2) Handel type
+    3) Picture On it
+    4) Material it is made from
+    5) Shape 
 3 things it can do:
-    1)
-    2)
-    3)
+    1) Store Liquid
+    2) Empty Liquid
+    3) Store Pens
  */
 
 /*
-9)
+9) Speaker
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) Number of Cones
+    2) type of Cones
+    3) Cone Size
+    4) Has a builtin amp
+    5) Has grill
 3 things it can do:
-    1)
-    2)
-    3)
+    1) Vibrate Cones
+    2) Push Air Molecules
+    3) Amplify Sound
  */
 
 /*
-10)
+10) House
 5 properties:
  These 5 properties should be UDTs that you defined above.
  this goes along with the instruction:
     One of your 10 UDTs should only use UDTs for its member variable types.
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) Has Bedrooms
+    2) Has running Water
+    3) Has Electricity
+    4) Made of bricks
+    5) Has windows
 3 things it can do:
-    1)
-    2)
-    3)
+    1) House People
+    2) Open windows
+    3) Open doors
  */
 
 #include <iostream>
